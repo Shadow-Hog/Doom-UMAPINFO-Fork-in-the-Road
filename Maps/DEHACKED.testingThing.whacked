@@ -1,0 +1,71 @@
+{
+    "engine": "tables_mbf", 
+    "windows": {
+        "weapons": {
+            "y": 104, 
+            "x": 104, 
+            "height": 360, 
+            "visible": 0, 
+            "width": 560
+        }, 
+        "par": {
+            "y": 26, 
+            "x": 26, 
+            "height": 380, 
+            "visible": 0, 
+            "width": 400
+        }, 
+        "things": {
+            "y": 0, 
+            "x": 0, 
+            "height": 580, 
+            "visible": 0, 
+            "width": 840
+        }, 
+        "misc": {
+            "y": 0, 
+            "x": 0, 
+            "height": 380, 
+            "visible": 0, 
+            "width": 440
+        }, 
+        "states": {
+            "y": 26, 
+            "x": 26, 
+            "height": 480, 
+            "visible": 0, 
+            "width": 780
+        }, 
+        "cheats": {
+            "y": 156, 
+            "x": 156, 
+            "height": 401, 
+            "visible": 0, 
+            "width": 340
+        }, 
+        "active": "states", 
+        "sounds": {
+            "y": 52, 
+            "x": 52, 
+            "height": 480, 
+            "visible": 0, 
+            "width": 430
+        }, 
+        "strings": {
+            "y": 78, 
+            "x": 78, 
+            "height": 480, 
+            "visible": 0, 
+            "width": 640
+        }, 
+        "ammo": {
+            "y": 130, 
+            "x": 130, 
+            "height": 250, 
+            "visible": 0, 
+            "width": 520
+        }
+    }, 
+    "pwads": [], 
+    "iwad": "D:\\DOOM\\GZDoom-Bin-1-0-18\\DOOM2.WAD"
+}

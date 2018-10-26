@@ -1,0 +1,110 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "Boom_Doom2Doom.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP08
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "D:\\DOOM\\GZDoom-Bin-1-0-18\\Mine\\ForkInTheRoad\\32in24-15_tex.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 0;
+				location = "D:\\DOOM\\GZDoom-Bin-1-0-18\\Mine\\ForkInTheRoad\\ForkInTheRoad_Base.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "GROUND09";
+		defaultceiltexture = "F_SKY1";
+		defaulttoptexture = "ROCK23";
+		defaultwalltexture = "ROCK23";
+		defaultbottomtexture = "ROCK23";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = 1822.48f;
+		viewpositiony = 6052.485f;
+		viewscale = 1.202778f;
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 16f;
+		}
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+					
+					prefab1
+					{
+						name = "[Previous]";
+						numberofsectors = 8;
+						outervertexmultiplier = 1;
+						innervertexmultiplier = 1;
+						stairtype = 0;
+						sectordepth = 32;
+						spacing = 0;
+						frontside = false;
+						singlesectors = false;
+						singledirection = false;
+						distinctbaseheights = false;
+						flipping = 0;
+						numberofcontrolpoints = 1;
+						applyfloormod = true;
+						floormod = 16;
+						applyceilingmod = true;
+						ceilingmod = 0;
+						applyfloortexture = false;
+						floortexture = "";
+						applyceilingtexture = false;
+						ceilingtexture = "";
+						applyuppertexture = false;
+						uppertexture = "-";
+						upperunpegged = true;
+						applymiddletexture = false;
+						middletexture = "-";
+						applylowertexture = false;
+						lowertexture = "-";
+						lowerunpegged = true;
+					}
+				}
+			}
+		}
+	}
+}

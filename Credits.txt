@@ -1,0 +1,49 @@
+Music used
+Title: "Intro 3" by John Broomhall - X-COM: UFO Defense/UFO: Enemy Unknown
+Intermission: "Intercept" by John Broomhall - X-COM: UFO Defense/UFO: Enemy Unknown
+MAP01:
+MAP02:
+MAP03:
+MAP04:
+MAP05:
+MAP06:
+MAP07: "Sign of Evil" by Robert Prince (MIDI by Jay "silentzorah" Reichard) - Doom
+Ending A: "The End of Doom" by Robert Prince - Doom
+MAP08:
+MAP09:
+MAP10:
+MAP11:
+MAP12:
+MAP13: "Gaurdian Sphinx" [sic] by Chris Senn (MIDI by JexuBandicoot527) - Sonic X-Treme (unreleased)
+Ending B: "Legion of the Lost" by one of Jonathan El-Bizri, Josh Martel, L.A. Sieben or Tom Mustaine - Final Doom: TNT: Evilution
+MAP14:
+MAP15:
+MAP16:
+MAP17:
+MAP18: "Nobody Told Me About Plutonia" by Jimmy - Plutonia 2
+Ending C: "Endgame" by Robert Prince - Doom II: Hell on Earth
+MAP19:
+MAP20:
+MAP21:
+MAP22:
+Ending D: "Level Complete Stats" by Aubrey Hodges (MIDI by Jay "silentzorah" Reichard) - Doom (PlayStation)
+MAP23:
+MAP24:
+MAP25:
+Ending E: "Win" by John Broomhall - X-COM: UFO Defense/UFO: Enemy Unknown
+MAP26:
+MAP27:
+Ending F: "Sweet Little Dead Bunny" by Robert Prince - Doom
+MAP28 (placeholder): D_HITLER by Xaser Archon - Turbocharged Arcade
+Ending G: "U R A Hero" by Robert Prince - Wolfenstein 3D
+
+Sounds used
+"SECRET LEVEL": SECRET.VOC - Duke Nukem 3D
+SS Nazi/Hitler sounds: Various - Wolfenstein 3D
+
+Sprites used
+Hitler Sprites: UnTrustable
+
+Textures used
+General: 32-in-24-15 resource WAD - YEDS
+SKYFORK1: SKY1 - Perdition's Gate

@@ -1,0 +1,173 @@
+Patch File for DeHackEd v3.0
+# Created with WhackEd4 1.0.3
+# Note: Use the pound sign ('#') to start comment lines.
+
+Doom version = 21
+Patch format = 6
+
+# Give the Schutzstaffell the grunting pain noise Hitler's gonna use
+Thing 24 (SS Nazi)
+Pain sound = 113
+
+# Hitler, because f Nazis rn tbh
+Thing 140 (Adolf Hitler)
+Close attack frame = 0
+Far attack frame = 982
+Injury frame = 986
+Death frame = 988
+Respawn frame = 0
+Attack sound = 0
+Height = 4194304
+Width = 1572864
+Hit points = 10000
+Mass = 1000
+Pain chance = 80
+
+# Explosions for fancy setpieces
+Thing 141 (Explosion)
+Death sound = 82
+Death frame = 1046
+Bits = SOLID
+Height = 2752512
+Initial frame = 1054
+Width = 720896
+First moving frame = 1046
+Alert sound = 82
+Speed = 25
+ID # = 2020
+
+# Super Spider Mastermind for a boss later (maybe)
+Thing 143 (Spiderdemon, High Health)
+Action sound = 77
+Width = 8388608
+Death frame = 621
+Attack sound = 2
+Far attack frame = 615
+Bits = SOLID+SHOOTABLE+COUNTKILL
+Height = 6553600
+Pain sound = 26
+Initial frame = 601
+Hit points = 9999
+Pain chance = 40
+First moving frame = 603
+Speed = 12
+Mass = 1000
+Injury frame = 619
+
+# Thing wot announces you've found a secret exit
+Thing 144 (SECRET LEVEL)
+First moving frame = 1055
+Initial frame = 1054
+Alert sound = 66
+Bits = NOSECTOR
+
+# Have the Shotgun guy use the same final gib frames as the Zombieman, as they're identical
+Frame 228
+Next frame = 196
+
+Frame 982
+Duration = 10
+
+Frame 983
+Duration = 4
+Sprite subnumber = 32773
+
+Frame 984
+Duration = 3
+Sprite subnumber = 32774
+Next frame = 985
+
+Frame 985
+Duration = 1
+Sprite subnumber = 32774
+Next frame = 983
+
+Frame 986
+Next frame = 987
+
+Frame 987
+Duration = 3
+Sprite subnumber = 7
+Next frame = 974
+
+Frame 988
+Duration = 70
+Sprite subnumber = 0
+
+Frame 989
+Unknown 1 = 110
+Sprite subnumber = 8
+
+Frame 990
+Sprite subnumber = 9
+
+Frame 991
+Sprite subnumber = 10
+
+Frame 992
+Duration = 4
+Sprite subnumber = 11
+Next frame = 993
+
+Frame 993
+Duration = 4
+Sprite subnumber = 12
+
+Frame 994
+Duration = 4
+Sprite subnumber = 13
+
+Frame 995
+Sprite subnumber = 14
+
+Frame 996
+Duration = -1
+Sprite subnumber = 15
+Next frame = 0
+
+# Explosion frames - just the Missile explosion, but offset higher
+Frame 1046
+Duration = 8
+Sprite number = 22
+
+Frame 1047
+Duration = 6
+Sprite number = 22
+
+Frame 1048
+Sprite number = 22
+
+# "SECRET LEVEL" frames
+Frame 1054
+Duration = 1
+Sprite number = 138
+
+Frame 1055
+Duration = 68
+Sprite number = 138
+Next frame = 0
+
+# Make "SECRET LEVEL" play on only one channel
+Sound 65
+Zero/One = 1
+
+# Ditto "Die, Allied schweinhund"
+Sound 108
+Value = 90
+Zero/One = 1
+
+# Summary of code pointer changes:
+# * A_BossDeath for certain enemies that didn't already have them
+# * Everything involving Hitler
+# * Gives "SECRET LEVEL" one A_Look pointer
+[CODEPTR]
+FRAME 577 = BossDeath
+FRAME 996 = BossDeath
+FRAME 1054 = Look
+FRAME 983 = SPosAttack
+FRAME 984 = SPosAttack
+FRAME 985 = SpidRefire
+FRAME 986 = NULL
+FRAME 987 = Pain
+FRAME 989 = PlaySound
+FRAME 350 = BossDeath
