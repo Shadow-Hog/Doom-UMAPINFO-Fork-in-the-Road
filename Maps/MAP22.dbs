@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -830.7302f;
-		viewpositiony = -2225.974f;
-		viewscale = 0.473555f;
+		viewpositionx = 1314.847f;
+		viewpositiony = -477.6345f;
+		viewscale = 0.2471311f;
 		
 		grid
 		{
@@ -59,7 +59,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8f;
+			gridsize = 256f;
 		}
 		
 		plugins
@@ -74,34 +74,34 @@ maps
 					prefab1
 					{
 						name = "[Previous]";
-						numberofsectors = 7;
+						numberofsectors = 6;
 						outervertexmultiplier = 1;
 						innervertexmultiplier = 1;
 						stairtype = 0;
-						sectordepth = 32;
+						sectordepth = 64;
 						spacing = 0;
-						frontside = true;
+						frontside = false;
 						singlesectors = false;
 						singledirection = false;
 						distinctbaseheights = false;
 						flipping = 0;
 						numberofcontrolpoints = 1;
 						applyfloormod = true;
-						floormod = -8;
-						applyceilingmod = false;
+						floormod = 16;
+						applyceilingmod = true;
 						ceilingmod = 0;
 						applyfloortexture = false;
 						floortexture = "";
 						applyceilingtexture = false;
 						ceilingtexture = "";
-						applyuppertexture = false;
+						applyuppertexture = true;
 						uppertexture = "-";
 						upperunpegged = true;
 						applymiddletexture = false;
 						middletexture = "-";
 						applylowertexture = true;
-						lowertexture = "BRICKGT2";
-						lowerunpegged = false;
+						lowertexture = "BRICKGT3";
+						lowerunpegged = true;
 					}
 				}
 			}
