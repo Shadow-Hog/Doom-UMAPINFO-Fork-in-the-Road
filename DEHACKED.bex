@@ -164,6 +164,7 @@ Zero/One = 1
 FRAME 577 = BossDeath
 FRAME 996 = BossDeath
 FRAME 1054 = Look
+FRAME 1046 = Explode
 FRAME 983 = SPosAttack
 FRAME 984 = SPosAttack
 FRAME 985 = SpidRefire
