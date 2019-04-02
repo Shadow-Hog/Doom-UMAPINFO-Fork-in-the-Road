@@ -31,9 +31,9 @@ maps
 		}
 		defaultfloortexture = "MFLR8_4";
 		defaultceiltexture = "F_SKY1";
-		defaulttoptexture = "GOTHARC1";
-		defaultwalltexture = "GOTHARC1";
-		defaultbottomtexture = "GOTHARC1";
+		defaulttoptexture = "GSTONEB1";
+		defaultwalltexture = "GSTONEB1";
+		defaultbottomtexture = "GSTONEB1";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -580.0446f;
-		viewpositiony = -877.4929f;
-		viewscale = 0.05805307f;
+		viewpositionx = 702.2205f;
+		viewpositiony = -18.20857f;
+		viewscale = 0.1753717f;
 		
 		grid
 		{
@@ -60,6 +60,9 @@ maps
 			backscalex = 100;
 			backscaley = 100;
 			gridsize = 64f;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
 		}
 	}
 }

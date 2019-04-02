@@ -30,7 +30,7 @@ maps
 			}
 		}
 		defaultfloortexture = "QFLAT03";
-		defaultceiltexture = "BRIKGTH3";
+		defaultceiltexture = "BRIKGTHD";
 		defaulttoptexture = "BRICK9";
 		defaultwalltexture = "BRICK9";
 		defaultbottomtexture = "BRICK9";
@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 763.0024f;
-		viewpositiony = -572.2256f;
-		viewscale = 0.4852538f;
+		viewpositionx = 67.897f;
+		viewpositiony = -1786.871f;
+		viewscale = 0.1695589f;
 		
 		grid
 		{
@@ -59,7 +59,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8f;
+			gridsize = 32f;
 		}
 		
 		plugins
