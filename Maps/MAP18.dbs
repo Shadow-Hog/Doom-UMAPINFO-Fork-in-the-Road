@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 702.2205f;
-		viewpositiony = -18.20857f;
-		viewscale = 0.1753717f;
+		viewpositionx = 1254.387f;
+		viewpositiony = 239.3244f;
+		viewscale = 0.4205579f;
 		
 		grid
 		{
@@ -59,10 +59,22 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 64f;
+			gridsize = 32f;
 			gridrotate = 0f;
 			gridoriginx = 0f;
 			gridoriginy = 0f;
+		}
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+				}
+			}
 		}
 	}
 }

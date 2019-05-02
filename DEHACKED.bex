@@ -161,6 +161,8 @@ Zero/One = 1
 # * Everything involving Hitler
 # * Gives "SECRET LEVEL" one A_Look pointer
 [CODEPTR]
+FRAME 280 = BossDeath
+FRAME 350 = BossDeath
 FRAME 577 = BossDeath
 FRAME 996 = BossDeath
 FRAME 1054 = Look
@@ -171,4 +173,3 @@ FRAME 985 = SpidRefire
 FRAME 986 = NULL
 FRAME 987 = Pain
 FRAME 989 = PlaySound
-FRAME 350 = BossDeath
