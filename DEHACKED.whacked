@@ -16,8 +16,8 @@
             "width": 400
         }, 
         "things": {
-            "y": 668, 
-            "x": 813, 
+            "y": 273, 
+            "x": 324, 
             "height": 580, 
             "visible": 1, 
             "width": 1108
@@ -33,7 +33,7 @@
             "y": 55, 
             "x": 743, 
             "height": 561, 
-            "visible": 1, 
+            "visible": 0, 
             "width": 780
         }, 
         "cheats": {
@@ -48,7 +48,7 @@
             "y": 2, 
             "x": 11, 
             "height": 795, 
-            "visible": 1, 
+            "visible": 0, 
             "width": 705
         }, 
         "strings": {
