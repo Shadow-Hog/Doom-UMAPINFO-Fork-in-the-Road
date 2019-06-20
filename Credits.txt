@@ -1,16 +1,16 @@
 Music used
 Title: "Intro 3" by John Broomhall - X-COM: UFO Defense/UFO: Enemy Unknown
 Intermission: "Intercept" by John Broomhall - X-COM: UFO Defense/UFO: Enemy Unknown
-MAP01:
-MAP02:
-MAP03:
+MAP01: "Hiding the Secrets" by Robert Prince (MIDI by Jay "silentzorah" Reichard) - Doom
+MAP02: "Drive" by Seppo Hurne - Gubble
+MAP03: "Bombshell" by James "Jimmy" Paddock
 MAP04:
 MAP05:
 MAP06:
 MAP07: "Sign of Evil" by Robert Prince (MIDI by Jay "silentzorah" Reichard) - Doom
 Ending A: "The End of Doom" by Robert Prince - Doom
-MAP08:
-MAP09:
+MAP08: "Wasteland 1" by Seppo Hurne - Gubble 2
+MAP09: "" by - Lands of Lore
 MAP10:
 MAP11:
 MAP12:
@@ -19,13 +19,13 @@ Ending B: "Legion of the Lost" by one of Jonathan El-Bizri, Josh Martel, L.A. Si
 MAP14:
 MAP15:
 MAP16:
-MAP17:
-MAP18: "Nobody Told Me About Plutonia" by Jimmy - Plutonia 2
+MAP17: "Old Life Space" by Masaki Suzuki (MIDI by KingMeteor) - Mega Man Zero 3
+MAP18: "Nobody Told Me About Plutonia" by James "Jimmy" Paddock - Plutonia 2
 Ending C: "Endgame" by Robert Prince - Doom II: Hell on Earth
 MAP19:
 MAP20:
 MAP21:
-MAP22:
+MAP22: "You Goddamned Bathead!" by - Akumajou Dracula (Sharp X68000), a.k.a. Castlevania Chronicles
 Ending D: "Level Complete Stats" by Aubrey Hodges (MIDI by Jay "silentzorah" Reichard) - Doom (PlayStation)
 MAP23:
 MAP24:
@@ -40,10 +40,15 @@ Ending G: "U R A Hero" by Robert Prince - Wolfenstein 3D
 Sounds used
 "SECRET LEVEL": SECRET.VOC - Duke Nukem 3D
 SS Nazi/Hitler sounds: Various - Wolfenstein 3D
+DSSECRET: Classic Level Lever - Doom (2016)
 
 Sprites used
 Hitler Sprites: UnTrustable
 
 Textures used
-General: 32-in-24-15 resource WAD - YEDS
+General: 32-in-24-15 resource WAD - YEDS, Community Chest 4 texture pack creators
+General: Cage's texture packs
 SKYFORK1: SKY1 - Perdition's Gate
+City sky texture: Duke Nukem 3D
+Portal texture: Hexen
+Shoot switch texture: Quake

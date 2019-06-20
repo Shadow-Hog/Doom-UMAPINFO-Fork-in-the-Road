@@ -1,0 +1,68 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "Doom_Doom2Doom.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		overrideceiltexture = false;
+		defaultceiltexture = "FLAT23";
+		useresourcesinreadonlymode = false;
+		customfloorheight = 0;
+		overridemiddletexture = false;
+		overridebrightness = false;
+		overridebottomtexture = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "D:\\DOOM\\GZDoom-Bin-1-0-18\\Mine\\ForkInTheRoad\\ForkInTheRoad_Base.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 0;
+				location = "D:\\DOOM\\GZDoom-Bin-1-0-18\\Mine\\ForkInTheRoad\\32in24-15_tex.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		viewscale = 2.662735f;
+		viewpositionx = 123.9588f;
+		overridefloorheight = false;
+		defaulttoptexture = "BROWNGRN";
+		customceilheight = 128;
+		defaultfloortexture = "NUKAGE1";
+		viewpositiony = 1687.641f;
+		overridefloortexture = false;
+		overrideceilheight = false;
+		defaultwalltexture = "BROWNGRN";
+		overridetoptexture = false;
+		custombrightness = 196;
+		defaultbottomtexture = "BROWNGRN";
+		uselongtexturenames = false;
+		
+		grid
+		{
+			backsource = 0;
+			backscaley = 100;
+			backscalex = 100;
+			gridsize = 8f;
+			gridoriginx = 0f;
+			background = "";
+			backoffsetx = 0;
+			gridrotate = 0f;
+			gridoriginy = 0f;
+			backoffsety = 0;
+		}
+	}
+}

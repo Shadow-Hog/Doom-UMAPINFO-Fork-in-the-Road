@@ -73,6 +73,15 @@ maps
 				option2 = 0;
 				notfortesting = 0;
 			}
+			
+			resource2
+			{
+				type = 0;
+				location = "D:\\DOOM\\GZDoom-Bin-1-0-18\\Mine\\InstaDie\\instadie4_crudefix.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
 		}
 		defaultfloortexture = "FLAT5_4B";
 		defaultceiltexture = "GROUND06";
@@ -92,9 +101,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -500.751f;
-		viewpositiony = 476.4956f;
-		viewscale = 0.9831187f;
+		viewpositionx = -701.6125f;
+		viewpositiony = 1646.309f;
+		viewscale = 1.278042f;
 		
 		grid
 		{
@@ -104,7 +113,10 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8f;
+			gridsize = 16f;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
 		}
 	}
 }

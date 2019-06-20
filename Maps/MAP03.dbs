@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -672.371f;
-		viewpositiony = 178.8377f;
-		viewscale = 1.040283f;
+		viewpositionx = -728.9414f;
+		viewpositiony = 1013.166f;
+		viewscale = 3.862487f;
 		
 		grid
 		{
@@ -59,7 +59,10 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32f;
+			gridsize = 1f;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
 		}
 		
 		plugins
